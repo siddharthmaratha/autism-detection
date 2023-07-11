@@ -6,7 +6,7 @@ from keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
 
-df = pd.read_csv("Autism_Data.csv")
+df = pd.read_csv("src/Autism_Data.csv")
 
 df.replace("?", np.nan, inplace=True)
 df["age"] = df["age"].astype(float)
