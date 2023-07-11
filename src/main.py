@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # load the saved model from keras
-model = load_model("classifier")
+model = load_model("src/classifier")
 
 st.title("Autism Detection - DL classification")
 

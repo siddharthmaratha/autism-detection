@@ -65,4 +65,4 @@ print(accuracy_score(Y_test[["YES"]], prediction))
 print(classification_report(Y_test[["YES"]], prediction))
 
 # save the model
-model.save("classifier", save_format="h5")
+model.save("src/classifier", save_format="h5")
